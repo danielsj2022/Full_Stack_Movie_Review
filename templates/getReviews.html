@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--'''Jeremiah Daniels jbd22a
+    due 2/21/2024
+    The program in this file is the individual work of Jeremiah Daniels
+'''-->
+<html>
+    <body>
+        <form action="{{ url_for('genReviews')}}" method="post"> 
+            <h1>Get all Reviews for a Genre</h1>
+            <div>
+                <label for="genre">Genre:</label>
+                <input type="text" id="genre" name="genre" required>
+            </div> 
+            <div>
+                <input type="submit">
+            </div> 
+        </form>
+        <p><a href="/">Back to home</a></p>
+
+    </body>
+</html>
